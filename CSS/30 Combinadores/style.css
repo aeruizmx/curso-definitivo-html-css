@@ -1,0 +1,4 @@
+/* Hermano cercano Adyacent sibling */
+h2 + p { 
+  color: red;
+}
