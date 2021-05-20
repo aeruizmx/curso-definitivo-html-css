@@ -1,0 +1,4 @@
+/*Modificar todos los p que tenga un hermano h2*/
+h2 ~ p { 
+  color: red;
+}
