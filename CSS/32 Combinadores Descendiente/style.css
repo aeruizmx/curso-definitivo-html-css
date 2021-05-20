@@ -1,0 +1,4 @@
+/*Todas las etiquetas p que esten dentro de un div*/
+div p {
+  color: red;
+}
