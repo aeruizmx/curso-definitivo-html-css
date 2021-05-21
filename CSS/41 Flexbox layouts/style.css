@@ -1,0 +1,47 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+html {
+  font-size: 62.5%;
+}
+body {
+  font-size: 1.6rem;
+}
+.container {
+  border: 0.3rem solid black;
+  display: flex;
+  /* flex-wrap: wrap; /*Acomodar elementos si no caben*/
+  /* justify-content: center; */
+  flex-wrap: wrap;
+}
+.box {
+  /* width: 10rem; */
+  height: 10rem;
+  flex-basis: 10rem;
+  flex-grow: 1;
+}
+.box1 {
+  background-color: blue;
+  /* order: 1; */
+  /* flex-grow: 1;*/
+}
+.box2 {
+  background-color: brown;
+  /* order: 2; */
+  /* flex-grow: 1; */
+}
+.box3 {
+  background-color: chartreuse;
+  /* order: 4; */
+}
+.box4 {
+  background-color: coral;
+}
+.box5 {
+  background-color: crimson;
+}
+.box6 {
+  background-color: cyan;
+}
